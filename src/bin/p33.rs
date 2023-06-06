@@ -3,7 +3,13 @@ use rayon::prelude::*;
 use std::collections::HashSet;
 
 fn solve() -> usize {
-    0
+    for t in (10..=99) {
+        for b in (10..=99) {
+            if t >= b {
+                break; // go to next
+            }
+        }
+    }
 }
 
 fn main() {
